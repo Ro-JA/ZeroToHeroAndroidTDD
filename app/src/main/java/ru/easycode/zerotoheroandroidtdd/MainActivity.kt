@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import ru.easycode.zerotoheroandroidtdd.databinding.ActivityMainBinding
 
 
+
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +18,12 @@ class MainActivity : AppCompatActivity() {
         val textView = binding.titleTextView
         val button = binding.changeButton
         button.setOnClickListener { changeTextTextView(textView) }
+
+
+        val textView = binding.titleTextView
+        val button = binding.changeButton
+        button.setOnClickListener { changeTextTextView(textView) }
+
 
     }
 
